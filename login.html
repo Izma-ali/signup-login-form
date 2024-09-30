@@ -22,21 +22,20 @@
                 <div class="row d-flex justify-content-center align-items-center h-100">
                     <div class="col-12 col-md-8 col-lg-6 col-xl-5">
                         <div class="card" style="border-radius:1rem;">
-                        <div class="card-body p-5 text-center bg-dark text-white" style="border-radius:1rem;">
+                            <div class="card-body p-5 text-center bg-dark text-white" style="border-radius:1rem;">
 
                                 <div class="mb-md-5 mt-md-4 pb-5">
 
                                     <h2 class="mb-2 text-uppercase">Login</h2>
                                     <p class="text-50 mb-5">Please enter your login and password!</p>
 
-                                    <div data-mdb-input-init class="form-outline form-white mb-4">
-                                        <input type="email" id="loginEmail" class="form-control form-control-lg" />
-                                        <label class="form-label" for="loginEmail">Email</label>
+                                    <div data-mdb-input-init class="form-outline form-white mb-4 text-start">
+                                        <input type="email" id="loginEmail" class="form-control form-control-lg " />
+                                        <label class="form-label " for="loginEmail">Email</label>
                                     </div>
 
-                                    <div data-mdb-input-init class="form-outline form-white mb-4">
-                                        <input type="password" id="loginPass"
-                                            class="form-control form-control-lg" />
+                                    <div data-mdb-input-init class="form-outline form-white mb-4 text-start">
+                                        <input type="password" id="loginPass" class="form-control form-control-lg" />
                                         <label class="form-label" for="loginPass">Password</label>
                                     </div>
 
@@ -44,14 +43,15 @@
                                             password?</a></p>
 
                                     <button data-mdb-button-init data-mdb-ripple-init
-                                        class="btn btn-success btn-block btn-lg gradient-custom-4 fw-bold text-body" 
-                                        type="submit" id="login" >Login</button>
+                                        class="btn btn-success btn-block btn-lg gradient-custom-4 fw-bold text-body"
+                                        type="submit" id="login">Login</button>
 
 
                                 </div>
 
                                 <div>
-                                    <p class="mb-0">Don't have an account? <a href="#!" class="text-white fw-bold">Sign
+                                    <p class="mb-0 ">Don't have an account? <a href="#!" class="text-white fw-bold"
+                                            id="signup">Sign
                                             Up</a>
                                     </p>
                                 </div>
@@ -63,7 +63,7 @@
             </div>
         </div>
     </section>
-
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="app.js"></script>
 </body>
 
